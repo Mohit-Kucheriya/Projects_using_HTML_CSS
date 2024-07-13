@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TITLE  -->
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <!-- HEADING OF FORM  -->
+        <h2 align="center">Student Registration Form</h2>
+    </header>
+    <form action="">
+        <div>Name: <input type="text" placeholder="Enter your Name" /></div>
+        <br />
+
+        <div>Father's Name: <input type="text" placeholder="" /></div>
+        <br />
+
+        <div>Mother's Name: <input type="text" placeholder="" /></div>
+        <br />
+
+        <div>Phone: <input type="text" placeholder="+9112345*****" /></div>
+        <br />
+
+        <div>Email: <input type="email" placeholder="Enter email id" /></div>
+        <br />
+
+            <!-- CHOOSE GENDER ,RADIO TYPE IS USED  -->
+        <div>
+            Gender: <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other" />
+            <label for="other">Other</label><br /><br />
+        </div>
+
+            <!-- FOR BIRTH ,WE HAVE USE DATE TYPE  -->
+        <div>Date of Birth: <input type="date" /></div>
+        <br />
+
+            <!-- FOR ADDRESS TEXTAREA IS USED  -->
+        <div>
+            <label for="address">Address:</label>
+            <textarea name="Address" id="" cols="40" rows="5">Address:</textarea>
+        </div><br>
+
+            <!-- FOR SELECTING BLOOD GROUP WE HAVE USE SELECT AND OPTION TAG  -->
+        <div>
+            <label for="blood">Select Your Blood group:</label>
+            <select name="bloodgroup" id="bloodgroup">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+
+            </select><br><br>
+        </div>
+
+        <div>
+            Department: <input type="radio" id="cs" name="department" value="CS" />
+            <label for="cs">CS</label>
+            <input type="radio" id="entc" name="department" value="ENTC" />
+            <label for="entc">ENTC</label>
+            <input type="radio" id="mechanical" name="department" value="Mechanical" />
+            <label for="mechanical">Mechanical</label>
+        </div>
+        <br>
+
+            <!-- TO CHOOSE COURSE FIELD WE HAVE USED CHECKBOX TYPE TO CHOOSE MULTIPLE  -->
+        <div>
+            Course:<input type="checkbox" id="course1" name="course1" value="C++">
+            <label for="course1"> C++</label>
+            <input type="checkbox" id="course2" name="course2" value="Python">
+            <label for="course2">Python</label>
+            <input type="checkbox" id="course3" name="course3" value="Java">
+            <label for="course1">Java</label>
+        </div> <br>
+
+        <div>
+            Photo: <input type="file">
+        </div> <br>
+
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>

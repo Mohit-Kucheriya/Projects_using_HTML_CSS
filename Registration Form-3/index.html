@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Using Html & Css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <h2>Registration form</h2>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter full name" name="name" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="username">User Name</label>
+                    <input type="text" placeholder="Username" name="uname" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">Email Id</label>
+                    <input type="email" placeholder="Enter your valid email address" name="email" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" placeholder="Enter phone number" name="phonenumber" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+                </div>
+
+                <div class="input-box">     
+                    <label for="Cpassword">Confirm Password</label>
+                    <input type="password" placeholder="Confirm Password" name="confirmpassword" required>
+                </div>
+
+                 <span class="gender-title">Gender</span>
+                 <div class="gender-category">
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    
+                    <input type="radio" id="other" name="gender" value="Other">
+                    <label for="other">Other</label>
+                 </div> 
+            </div>
+
+            <div class="alert">
+                <p>By clicking Sign up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy </a>and<a href="#">Cookies Policy</a>. You may receive SMS notification from us and can opt out at any time.</p>
+            </div>
+
+            <div class="button-container">
+                <button type="submit">Register</button>
+
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

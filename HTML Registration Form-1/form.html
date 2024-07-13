@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Registration Form</title>
+  </head>
+  <body>
+    <!-- WE HAVE USE TABLE TAG BECAUSE WE HAVE TO ARRANGE ALL THE ORDER IN SERIES ,HENCE WE HAVE USE T-ROW AND T-DATA TAG  -->
+
+    <form action="/action.php">
+      <head>
+        <h1 style="text-align: center">Registration Form</h1>
+      </head>
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" placeholder="Name" name="" /></td>
+        </tr>
+
+        <br />
+
+        <tr>
+          <td>Phone:</td>
+          <td><input type="phone" placeholder="+911234******" /></td>
+        </tr>
+
+        <tr>
+          <td>Email id:</td>
+          <td><input type="email" placeholder="Enter valid e-mail " /></td>
+        </tr>
+
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" placeholder="Enter valid password" /></td>
+        </tr>
+
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female
+          </td>
+        </tr>
+
+        <tr>
+          <td>Date of Birth:</td>
+          <td><input type="date" /></td>
+        </tr>
+
+        <tr>
+          <td>Hobbies:</td>
+          <td>
+            <input type="checkbox" name="Excercise" id="101" />Excercise
+            <input type="checkbox" name="Coding" id="102" />Coding
+            <input type="checkbox" name="Reading" id="103" />Reading
+            <input type="checkbox" name="Swimming" id="104" />Swimming
+          </td>
+        </tr>
+
+        <tr>
+          <td>Education Qualification</td>
+          <td>
+            <select>
+              <option value="">Select qualification</option>
+              <option value="">None</option>
+              <option value="">10+2</option>
+              <option value="">Graduation</option>
+              <option value="">Post-Graduation</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Address:</td>
+          <td>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Address">
+            </textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
